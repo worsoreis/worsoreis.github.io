@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Worsoreis's Corner</title>
+  <meta property="og:title" content="Worsoreis's Corner">
+  <link rel="icon" type="image/png" href="Assets/Other/Portal.png">
+  <style>@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);</style>
+  <script src="../Assets/js/sounds.js"></script>
+</head>
+
+
+<body>
+
+<div id="container">
+
+  <div class="header">
+    <h1>Worsoreis's Corner</h1>
+  </div>
+  
+  <div class="navbar">
+    <a href="" style="color: var(--orange;">Home</a>
+    <a href="/idk">Projects</a>
+    <a href="/idk2">Art/Comics</a>
+    <a href="/links">Links</a>
+  </div>
+  
+<div class="autoplayer">
+  <div class="buttondiv"><button id="button"><i class="fa fa-pause"></i></button></div>
+  <audio loop autoplay id="player"><source src='https://github.com/Skeel0/Neocities-Host/raw/refs/heads/main/Assets/Sounds/Music/Deltarune%20Chapter%202%20OST%2003%20-%20My%20Castle%20Town.mp3' type='audio/mpeg' /></audio>
+  <a target="_blank"><i>Now Playing:<br>My Castle Town - Toby Fox</i></a>
+  <script src="../Assets/js/musicplayer.js"></script>
+  <!-- YOUR PLAYBUTTON SCRIPT NEEDS TO BE UNDERNEATH THE PLAYER, ELSE IT WILL NOT WORK -->
+</div>
+
+<div id="flex">
+
+<aside id="left">
+</aside>
+
+<main>
+  <h2 style="text-align: center;">Welcome!!</h2>
+  <p>* Unfortunately for mobile users, this website is best viewed on computer.</p>
+  <p>...</p>
+  <p>* Also, this website is seeing its code fully remade, meaning that this website will be unstable for a while.</p>
+  
+  <div class="warning"><h2 style="font-size: 35px;">This website will feature :</h2></div>
+    <div class="warningbox"><ul>
+      <li>Mature language & topics.</li>
+      <li>Easter eggs.</li>
+    </ul></div>
+</main>
+
+<aside id="right">
+  <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=skeelo" defer></script>
+</aside>
+
+</div>
+<footer>
+  <p>© 2025 - <script type="text/javascript">document.write( new Date().getFullYear() );</script></p>
+  <p>Powered by Neocities.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
