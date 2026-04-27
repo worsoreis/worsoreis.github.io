@@ -1,0 +1,204 @@
+/* This CSS is inspired by NEONbandit's!! That person is extremely talented and I love the way everything is layered! ALL CREDITS GO TO THEM!!!!! */
+
+/* == IMPORTS == */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Indie Flower");
+@import url("https://fonts.googleapis.com/css?family=The Girl Next Door");
+@import url("https://fonts.googleapis.com/css?family=Over the Rainbow");
+@import url("https://fonts.googleapis.com/css?family=Swanky and Moo Moo");
+@import url("https://fonts.googleapis.com/css?family=Yomogi");
+@import url("https://fonts.googleapis.com/css?family=Lavishly Yours");
+@font-face { font-family: 'Deltarune'; src: url("Assets/Fonts/Deltarune.ttf") format("truetype"); }
+@font-face { font-family: 'PixelOperator'; src: url("Assets/Fonts/PixelOperator.ttf") format("truetype"); }
+@font-face { font-family: 'PixelBold'; src: url("Assets/Fonts/PixelOperator-Bold.ttf") format("truetype"); }
+@font-face { font-family: 'dis'; src: url("Assets/Fonts/dysinformation.ttf") format("truetype"); }
+@font-face { font-family: 'Napstablook'; src: url("Assets/Fonts/Slanted.ttf") format("truetype"); }
+@font-face { font-family: 'OmoriBold'; src: url("Assets/Fonts/OmoriBold.ttf") format("truetype"); }
+
+
+/* == ROOT == */
+:root {
+    /* -- Colors -- */
+  --bgcolor: #f2e8e1; 
+  --scrollbar-bg: #000000;
+  --darkred: #990606;
+  --darkblue: #090699;
+  --darkgreen: #0d9906;
+  --darkpurple: #5d0699;
+  --darkbeige: #d4cac4;
+  --red: #cf1010;
+  --blue: #1018cf;
+  --green: #14cf10;
+  --purple: #9210cf;
+  --orange: #d16710;
+  --lightred: #ebbcbc;
+  --lightblue: #bcc4eb;
+  --lightgreen: #c1ebbc;
+  --lightpurple: #d5bceb;
+  
+    /* -- Texts -- */
+  --link-color: #ff0000;
+  --link-hover: #0000FF;
+  --title-shadow: 4px 4px var(--lightblue);
+  --title-shadow2: 2px 2px var(--lightblue);
+  --title-shadowred: 2px 2px var(--lightred);
+  --title-shadowgreen: 2px 2px var(--lightgreen);
+  --button-text-shadow: 0 0 5px #FFF;
+  --text-shadow-dia: 3px 3px var(--shadow-color);
+  --shadow-color: #282864;
+  
+    /* -- Boxes -- */
+  --shadow-color1: #FF0000; 
+  --shadow-color2: #00FFFF;
+  --box-color: black;
+  
+    /* -- Borders -- */
+  --border: 2px solid var(--darkblue);
+  --lightblue-border: 2px solid var(--lightblue);
+  --lightred-border: 2px solid #ef9494;
+  --blueborder: 2px solid var(--blue);
+  --redborder: 2px solid var(--red);
+  --greenborder: 2px solid #43c433;
+  --darkgreen-border: 2px solid #3cab2e;
+  --smallborder : 2px solid var(--darkbeige);
+  
+    /* -- Misc -- */
+  --dis-font: "dis", monospace;
+  --napsta-font: "Napstablook", monospace;
+  --primary-font: "PixelOperator", monospace;
+  --secondary-font: "PixelBold", monospace;
+  --deltarune-font: "Deltarune", monospace;
+  --omoribold-font: "OmoriBold", monospace;
+  --girl-font: "The Girl Next Door", monospace;
+  --indie2-font:"Swanky and Moo Moo",monospace;
+  --indie-font: "Indie Flower", monospace;
+  --caveat-font: "Over the Rainbow", monospace;
+  --japanese-font: "Yomogi", monospace;
+  --fancy-font: "Lavishly Yours", monospace;
+}
+
+a { font-family: var(--indie2-font); background-clip: text; text-decoration: none; font-size: 25px; transition: 0s ease-in; cursor: pointer;}
+a:hover {background-clip: text; text-decoration: underline; }
+a:visited { color: var(--blue);}
+b { color: #208787; }
+p { font-family: var(--indie-font); color: var(--darkblue); font-size: 14px; }
+h1 { font-family: var(--caveat-font); color: var(--darkblue); font-size: 50px; text-shadow: var(--title-shadow); letter-spacing: 1px; }
+h2 { font-family: var(--omoribold-font); color: var(--red); font-size: 45px; text-shadow: var(--title-shadowred); align-items: center; justify-content: center; display: flex; }
+h3 { font-family: var(--omoribold-font); color: var(--red); font-size: 25px; text-shadow: var(--title-shadowred);display: flex; margin: auto; }
+h4 { font-family: var(--secondary-font); color: cyan; font-size: 20px; }
+li { font-family: var(--indie-font); font-size: 14px;}
+ul { list-style: "* ";}
+
+#container { width: 1100px; margin: 0 auto; image-rendering: pixelated;}
+
+#flex { display: flex; justify-content: center; }
+
+/* == MAIN STUFF!!! == */
+body { background: var(--bgcolor); background-repeat: repeat; color: var(--text-color); margin: 0; box-sizing: border-box; }
+  
+.header { margin: 10px 0;  font-family: var(--deltarune-font); color: white; font-size: 40px;  text-shadow: var(--title-shadow);  display: flex;  align-items: center; justify-content: center; }
+
+.navbar { background: var(--bgcolor); border: var(--smallborder); display: flex; justify-content: center;}
+.navbar a { font-size: 25px; text-decoration: none; padding: 10px; padding-left: 40px; align-items: center; }
+.navbar a:hover { color: red; }
+
+.box { background-color: black; border: var(--smallborder); padding: 10px; margin: 10px; }
+
+aside { border: var(--smallborder); width: 200px; padding: 10px; margin: 10px auto; word-wrap: break-word; }
+main { border: var(--smallborder); width: 700px; padding: 10px; margin: 10px auto; word-wrap: break-word; order: 2; align-items: center; font-size: smaller; }
+footer p { font-size: 14px; color: black; text-align: center; letter-spacing: 1.5px; line-height: 5px; }
+#left { order: 1; margin-right: 10px; }
+#right{ order: 3; margin-left: 10px; }
+
+.button { line-height: 1; max-width: 250px; width: fit-content; border: 5px solid white; background: var(--box-color); padding: 6px 12px; margin: 10px auto; border-radius: 5px; font-size: 15px; transition: 0.2s ease; }
+.button h2 { margin: 0; color: white; text-shadow: var(--button-text-shadow); }
+
+.imageholder { max-width: 700px; max-height: 650px; overflow: hidden; }
+.smallimage { max-width: 200px; max-height: 200px; overflow: hidden; }
+
+/* == SPECIFIC PAGES CSS == */
+/* -- Home -- */
+.warningbox { width: 650px; position: relative; margin: 20px auto ; display: flex; padding: 10px; border: var(--lightred-border); color: yellow; font-family: var(--secondary-font); max-height: 200px; overflow: auto; }
+.warningbox ul { margin: 10px; padding-left: 20px; }
+.warningbox li { line-height: 1.5; color: var(--red); font-weight: 450;}
+
+#statuscafe { padding: .5em; background: var(--bgcolor); border: var(--lightblue-border); }
+#statuscafe-username { margin-bottom: .5em; font-family: var(--indie2-font); font-size: 10px; color: var(--blue); }
+#statuscafe-content { font-family: var(--indie2-font); margin: 0 1em 0.5em 1em; font-size: 14px; color: var(--darkred); }
+
+/* -- Links --*/
+.linklist { max-width: 900px; max-height: 200px; padding: 5px; margin: auto; border: var(--smallborder); }
+.coolheader { max-width: fit-content; max-height: fit-content; margin: auto; margin-bottom: 25px;}
+
+/* -- Art --*/
+.scroll-container { background-color: #3D3A38; border: 2px solid #797471; overflow: auto; white-space: nowrap; padding: 5px; }
+.scroll-container img { padding: 5px; max-height: 250px; max-width: 100%; width: auto; height: auto; }
+
+.galleryimage { border-radius: 5px; cursor: pointer; transition: 0.3s; width: auto; max-height: 250px; }
+.galleryimage:hover { opacity: 0.7; }
+
+.modal { display: none; position: fixed; z-index: 1; padding-top: 50px; height: 100%; left: 0; top: 0; width: 100%; overflow: auto; background-color: rgba(0,0,0,0.9);}
+.modal-content { margin: auto; display: block; width: 80%; max-width: 500px; }
+
+#caption { font-family: var(--indie-font); margin: auto; display: block; width: 80%; max-width: 700px; text-align: center; color: #ccc; padding: 10px 0; }
+
+.prev, .next { position: absolute; top: 50%; cursor: pointer; padding: 10px; user-select: none; color: #F2E8E1; }
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.close { position: absolute; top: 15px; right: 35px; color: #F2E8E1; font-size: 40px; font-weight: bold; transition: 0.3s; }
+.close:hover,
+.close:focus { color: #bbb; text-decoration: none; cursor: pointer; }
+
+
+/* ===== AUTOPLAY ===== */
+.buttondiv { cursor: pointer; position: fixed; height: 35px; bottom: 5px; width: 35px; left: 5px;}
+
+.autoplayer button { background: var(--lightgreen); cursor: pointer; color: #3bab2d; border: var(--greenborder); border-radius: 25px; padding: 1px 4px 0px 4px; font-size: 18px; position: fixed; height: 35px; bottom: 5px; width: 35px; left: 5px;}
+
+.autoplayer a { background: var(--lightgreen); color: #2b9c1f; text-decoration: none; padding: 10px; padding-top: 10px; position: fixed; font-family: var(--indie-font); font-size: 18px; bottom: 5px; z-index: 1; left: 50px; border: var(--greenborder); border-radius: 20px;}
+
+
+/* ===== ANIMATIONS ===== */
+/* -- Modal --*/
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* -- Floating -- */
+.floating { animation-iteration-count: infinite; animation-name: floating; animation-duration: 5s;  position: relative;  }
+@keyframes floating { 50% {transform: translateY(10px);}  }
+  
+/* -- Rainbow -- */
+.rainbow { animation: rainbow 16s linear infinite; background: linear-gradient(90deg, red, #ffa500, yellow, #00FF00, cyan, blue, #9F00FF, #FF00FF,red ); background-size: 400% auto; background-clip: text; color: transparent; }
+@keyframes rainbow { from { background-position: 0 50%; } to { background-position: 400% 50%; }}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* == FOR OTHERSSS LIKE ME == */
+@media only screen and (min-width: 700px) {
+li { font-size: 18px; }
+h2 { font-size: 40px; }
+h3 { font-size: 30px; }
+
+#container { width: 900px; margin: 0 auto; }
+main { width: 500px; }
+footer p { font-size: 12px; margin-bottom: 15px;}
+
+.linklist li { font-size: 14px; }
+.linklist a { font-size: 20px; }
+
+.warningbox { width: 450px; }
+.warningbox li { font-size : 14px; }
+
+.autoplayer a { padding: 5px; font-size: 12px;}
+
+}
