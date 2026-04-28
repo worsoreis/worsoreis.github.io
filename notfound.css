@@ -1,0 +1,83 @@
+/* This CSS is inspired by NEONbandit's!! That person is extremely talented and I love the way everything is layered! ALL CREDITS GO TO THEM!!!!! */
+
+/* == IMPORTS == */
+@font-face { font-family: 'Deltarune'; src: url("Assets/Fonts/Deltarune.ttf") format("truetype"); }
+@font-face { font-family: 'PixelOperator'; src: url("Assets/Fonts/PixelOperator.ttf") format("truetype"); }
+@font-face { font-family: 'PixelBold'; src: url("Assets/Fonts/PixelOperator-Bold.ttf") format("truetype"); }
+@font-face { font-family: 'Crypt'; src: url("Assets/Fonts/CryptOfTomorrow.ttf") format("truetype"); }
+@font-face { font-family: 'dis'; src: url("Assets/Fonts/dysinformation.ttf") format("truetype"); }
+@font-face { font-family: 'Jay'; src: url("Assets/Fonts/Jaywalk.ttf") format("truetype"); }
+@font-face { font-family: 'Napstablook'; src: url("Assets/Fonts/Slanted.ttf") format("truetype"); }
+@font-face { font-family: 'Witchqueen'; src: url("Assets/Fonts/Witchqueen.ttf") format("truetype"); }
+/* == ROOT == */
+:root {
+    /* -- Fonts -- */
+  --weird-font:"Witchqueen", monospace;
+  --dis-font: "dis", monospace;
+  --crypt-font: "Crypt", monospace;
+  --jay-font: "Jay", monospace;
+  --napsta-font: "Napstablook", monospace;
+  --primary-font: "PixelOperator", monospace;
+  --secondary-font: "PixelBold", monospace;
+  --deltarune-font: "Deltarune", monospace;
+  
+    /* -- Colors -- */
+  --bg-color: #000; 
+  --bg-img: url("Assets/Other/background.gif");
+  --scrollbar-bg: #000;
+  --text-color: white; /* Texts */
+  --title-shadow: 4px 4px white;
+  --text-shadow: 2px -1px 0 white, -2px 1px 0 white, 2px 1px 0 white, -2px -1px 0 white;
+  --link-color: #FF0000;
+  --link-hover: #0000FF;
+  --link-visited: #FF00FF;
+   
+    /* -- Boxes -- */
+  --shadow-color1: #FF000099; /* This webbed site can fit so many box shadows*/
+  --shadow-color2: #00FFFF99;
+  --box-color: black;
+  --border: 5px solid #FF0000;
+  image-rendering: pixelated;
+}
+
+    /* -- Text -- */
+   a { color: var(--link-color); }
+   a:visited { color: var(--link-visited); text-decoration: underline; }
+   a:hover   { color: var(--link-hover); text-decoration: underline; }
+   b { color: #00FFFF; }
+   i { font-family: var(--napsta-font); }
+   h1 { font-family: var(--napsta-font); color: purple; font-size: 50px; text-shadow: var(--title-shadow); letter-spacing: 1px; font-size: 30px;}
+   h2 { font-family: var(--secondary-font); color: red; font-size: 25px; text-shadow: var(--text-shadow); align-items: center; justify-content: center; display: flex; }
+   h3 { font-family: var(--secondary-font); color: red; font-size: 25px; text-shadow: var(--text-shadow); }
+   p { font-family: var(--secondary-font); font-size: 15px; }
+   
+   
+#container { width: auto;
+/* this is the width of your layout! */ margin: 0 auto; }
+
+#flex {display: flex; }
+    
+/* == MAIN SHIT!!!! */
+body { 
+  background: var(--bg-color);
+  color: var(--text-color); 
+  margin: 0; 
+  box-sizing: border-box; }
+  
+/* -- Header and boxes -- */
+.header { margin: 10px 0; font-size: 40px; padding: 15px 0 10px; display: flex; align-items: center; justify-content: center; }
+.soul { width: 18px; height: 18px; display: flex; margin: 0 auto; justify-content: center; opacity: 0.5; }
+.soul :hover { content: url("https://raw.githubusercontent.com/Skeel0/Neocities-Host/refs/heads/main/Assets/Pics/icons/FreedomSOUL.png"); opacity: 1;}
+  
+  /* ===== ANIMATIONS ===== */
+/* -- Floating -- */
+.floating { 
+  animation-iteration-count: infinite; 
+  animation-name: floating; 
+  animation-duration: 5s; 
+  position: relative;
+  }
+ 
+@keyframes floating { 
+  50% {transform: translateY(5px);} 
+  }
