@@ -1,14 +1,17 @@
 /* This CSS is inspired by NEONbandit's!! That person is extremely talented and I love the way everything is layered! ALL CREDITS GO TO THEM!!!!! */
 
 /* == IMPORTS == */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Indie Flower");
+@import url("https://fonts.googleapis.com/css?family=The Girl Next Door");
+@import url("https://fonts.googleapis.com/css?family=Over the Rainbow");
+@import url("https://fonts.googleapis.com/css?family=Swanky and Moo Moo");
+@import url("https://fonts.googleapis.com/css?family=Yomogi");
+@import url("https://fonts.googleapis.com/css?family=Lavishly Yours");
 @font-face { font-family: 'Deltarune'; src: url("Assets/Fonts/Deltarune.ttf") format("truetype"); }
-@font-face { font-family: 'PixelOperator'; src: url("Assets/Fonts/PixelOperator.ttf") format("truetype"); }
+@font-face { font-family: 'Pixel'; src: url("Assets/Fonts/PixelOperator.ttf") format("truetype"); }
 @font-face { font-family: 'PixelBold'; src: url("Assets/Fonts/PixelOperator-Bold.ttf") format("truetype"); }
-@font-face { font-family: 'Crypt'; src: url("Assets/Fonts/CryptOfTomorrow.ttf") format("truetype"); }
-@font-face { font-family: 'dis'; src: url("Assets/Fonts/dysinformation.ttf") format("truetype"); }
-@font-face { font-family: 'Jay'; src: url("Assets/Fonts/Jaywalk.ttf") format("truetype"); }
-@font-face { font-family: 'Napstablook'; src: url("Assets/Fonts/Slanted.ttf") format("truetype"); }
-@font-face { font-family: 'Witchqueen'; src: url("Assets/Fonts/Witchqueen.ttf") format("truetype"); }
+
 /* == ROOT == */
 :root {
     /* -- Fonts -- */
