@@ -9,12 +9,8 @@
 @import url("https://fonts.googleapis.com/css?family=Yomogi");
 @import url("https://fonts.googleapis.com/css?family=Lavishly Yours");
 @font-face { font-family: 'Deltarune'; src: url("Assets/Fonts/Deltarune.ttf") format("truetype"); }
-@font-face { font-family: 'PixelOperator'; src: url("Assets/Fonts/PixelOperator.ttf") format("truetype"); }
+@font-face { font-family: 'Pixel'; src: url("Assets/Fonts/PixelOperator.ttf") format("truetype"); }
 @font-face { font-family: 'PixelBold'; src: url("Assets/Fonts/PixelOperator-Bold.ttf") format("truetype"); }
-@font-face { font-family: 'dis'; src: url("Assets/Fonts/dysinformation.ttf") format("truetype"); }
-@font-face { font-family: 'Napstablook'; src: url("Assets/Fonts/Slanted.ttf") format("truetype"); }
-@font-face { font-family: 'OmoriBold'; src: url("Assets/Fonts/OmoriBold.ttf") format("truetype"); }
-
 
 /* == ROOT == */
 :root {
@@ -63,12 +59,9 @@
   --smallborder : 2px solid var(--darkbeige);
   
     /* -- Misc -- */
-  --dis-font: "dis", monospace;
-  --napsta-font: "Napstablook", monospace;
-  --primary-font: "PixelOperator", monospace;
-  --secondary-font: "PixelBold", monospace;
+  --pixel-font: "Pixel", monospace;
+  --pixelbold-font: "PixelBold", monospace;
   --deltarune-font: "Deltarune", monospace;
-  --omoribold-font: "OmoriBold", monospace;
   --girl-font: "The Girl Next Door", monospace;
   --indie2-font:"Swanky and Moo Moo",monospace;
   --indie-font: "Indie Flower", monospace;
