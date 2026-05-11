@@ -76,9 +76,9 @@ a:visited { color: var(--blue);}
 b { color: #208787; }
 p { font-family: var(--indie-font); color: var(--darkblue); font-size: 14px; }
 h1 { font-family: var(--caveat-font); color: var(--darkblue); font-size: 50px; text-shadow: var(--title-shadow); letter-spacing: 1px; }
-h2 { font-family: var(--omoribold-font); color: var(--red); font-size: 45px; text-shadow: var(--title-shadowred); align-items: center; justify-content: center; display: flex; }
-h3 { font-family: var(--omoribold-font); color: var(--red); font-size: 25px; text-shadow: var(--title-shadowred);display: flex; margin: auto; }
-h4 { font-family: var(--secondary-font); color: cyan; font-size: 20px; }
+h2 { font-family: var(--indie-font); color: var(--red); font-size: 45px; text-shadow: var(--title-shadowred); align-items: center; justify-content: center; display: flex; }
+h3 { font-family: var(--indie-font); color: var(--red); font-size: 25px; text-shadow: var(--title-shadowred);display: flex; margin: auto; }
+h4 { font-family: var(--pixel-font); color: cyan; font-size: 20px; }
 li { font-family: var(--indie-font); font-size: 14px;}
 ul { list-style: "* ";}
 
