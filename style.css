@@ -20,7 +20,7 @@
   
     /* -- Texts -- */
   --link-color: white;
-  --link-hover: yellow;
+  --link-hover: red;
   --title-shadow: 4px 4px pink;
   --title-shadow2: 2px 2px yellow;
   --title-shadowred: 2px 2px var(--lightred);
@@ -35,13 +35,7 @@
   --box-color: black;
   
     /* -- Borders -- */
-  --border: 2px solid var(--darkblue);
-  --lightblue-border: 2px solid var(--lightblue);
-  --lightred-border: 2px solid #ef9494;
-  --blueborder: 2px solid var(--blue);
-  --redborder: 2px solid var(--red);
-  --greenborder: 2px solid #43c433;
-  --darkgreen-border: 2px solid #3cab2e;
+  --border: 2px solid white;
   --smallborder : 2px solid var(--darkbeige);
   
     /* -- Misc -- */
@@ -56,12 +50,12 @@
   --fancy-font: "Lavishly Yours", monospace;
 }
 
-a { font-family: var(--indie2-font); background-clip: text; text-decoration: none; font-size: 25px; transition: 0s ease-in; cursor: pointer;}
+a { font-family: var(--pixel-font); background-clip: text; text-decoration: none; font-size: 25px; transition: 0s ease-in; cursor: pointer;}
 a:hover {background-clip: text; text-decoration: underline; }
-a:visited { color: var(--blue);}
+a:visited { color: yellow;}
 b { color: #208787; }
-p { font-family: var(--indie-font); color: var(--darkblue); font-size: 14px; }
-h1 { font-family: var(--caveat-font); color: var(--darkblue); font-size: 50px; text-shadow: var(--title-shadow); letter-spacing: 1px; }
+p { font-family: var(--pixel-font); color: white; font-size: 14px; }
+h1 { font-family: var(--deltarune-font); color: white; font-size: 50px; text-shadow: var(--title-shadow); letter-spacing: 1px; }
 h2 { font-family: var(--indie-font); color: var(--red); font-size: 45px; text-shadow: var(--title-shadowred); align-items: center; justify-content: center; display: flex; }
 h3 { font-family: var(--indie-font); color: var(--red); font-size: 25px; text-shadow: var(--title-shadowred);display: flex; margin: auto; }
 h4 { font-family: var(--pixel-font); color: cyan; font-size: 20px; }
