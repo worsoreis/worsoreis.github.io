@@ -87,7 +87,7 @@ ul { list-style: "* ";}
 #flex { display: flex; justify-content: center; }
 
 /* == MAIN STUFF!!! == */
-body { background: url("https://raw.githubusercontent.com/worsoreis/worsoreis.github.io/refs/heads/main/Assets/Images/hyena.png"); background-repeat: repeat; color: var(--text-color); margin: 0; box-sizing: border-box; }
+body { background-image: url("https://raw.githubusercontent.com/worsoreis/worsoreis.github.io/refs/heads/main/Assets/Images/hyena.png"); background-repeat: repeat; color: var(--text-color); margin: 0; box-sizing: border-box; }
   
 .header { margin: 10px 0;  font-family: var(--deltarune-font); color: white; font-size: 40px;  text-shadow: var(--title-shadow);  display: flex;  align-items: center; justify-content: center; }
 
