@@ -15,28 +15,14 @@
 /* == ROOT == */
 :root {
     /* -- Colors -- */
-  --bgcolor: #f2e8e1; 
+  --bgcolor: black; 
   --scrollbar-bg: #000000;
-  --darkred: #990606;
-  --darkblue: #090699;
-  --darkgreen: #0d9906;
-  --darkpurple: #5d0699;
-  --darkbeige: #d4cac4;
-  --red: #cf1010;
-  --blue: #1018cf;
-  --green: #14cf10;
-  --purple: #9210cf;
-  --orange: #d16710;
-  --lightred: #ebbcbc;
-  --lightblue: #bcc4eb;
-  --lightgreen: #c1ebbc;
-  --lightpurple: #d5bceb;
-  
+ 
     /* -- Texts -- */
   --link-color: #ff0000;
   --link-hover: #0000FF;
-  --title-shadow: 4px 4px var(--lightblue);
-  --title-shadow2: 2px 2px var(--lightblue);
+  --title-shadow: 4px 4px white;
+  --title-shadow2: 2px 2px blue;
   --title-shadowred: 2px 2px var(--lightred);
   --title-shadowgreen: 2px 2px var(--lightgreen);
   --button-text-shadow: 0 0 5px #FFF;
