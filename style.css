@@ -110,39 +110,13 @@ footer p { font-size: 14px; color: black; text-align: center; letter-spacing: 1.
 .smallimage { max-width: 200px; max-height: 200px; overflow: hidden; }
 
 /* == SPECIFIC PAGES CSS == */
-/* -- Home -- */
-.warningbox { width: 650px; position: relative; margin: 20px auto ; display: flex; padding: 10px; border: var(--lightred-border); color: yellow; font-family: var(--secondary-font); max-height: 200px; overflow: auto; }
-.warningbox ul { margin: 10px; padding-left: 20px; }
-.warningbox li { line-height: 1.5; color: var(--red); font-weight: 450;}
-
-#statuscafe { padding: .5em; background: var(--bgcolor); border: var(--lightblue-border); }
-#statuscafe-username { margin-bottom: .5em; font-family: var(--indie2-font); font-size: 10px; color: var(--blue); }
-#statuscafe-content { font-family: var(--indie2-font); margin: 0 1em 0.5em 1em; font-size: 14px; color: var(--darkred); }
+/* -- Index -- */
 
 /* -- Links --*/
-.linklist { max-width: 900px; max-height: 200px; padding: 5px; margin: auto; border: var(--smallborder); }
-.coolheader { max-width: fit-content; max-height: fit-content; margin: auto; margin-bottom: 25px;}
 
 /* -- Art --*/
 .scroll-container { background-color: #3D3A38; border: 2px solid #797471; overflow: auto; white-space: nowrap; padding: 5px; }
 .scroll-container img { padding: 5px; max-height: 250px; max-width: 100%; width: auto; height: auto; }
-
-.galleryimage { border-radius: 5px; cursor: pointer; transition: 0.3s; width: auto; max-height: 250px; }
-.galleryimage:hover { opacity: 0.7; }
-
-.modal { display: none; position: fixed; z-index: 1; padding-top: 50px; height: 100%; left: 0; top: 0; width: 100%; overflow: auto; background-color: rgba(0,0,0,0.9);}
-.modal-content { margin: auto; display: block; width: 80%; max-width: 500px; }
-
-#caption { font-family: var(--indie-font); margin: auto; display: block; width: 80%; max-width: 700px; text-align: center; color: #ccc; padding: 10px 0; }
-
-.prev, .next { position: absolute; top: 50%; cursor: pointer; padding: 10px; user-select: none; color: #F2E8E1; }
-.prev { left: 10px; }
-.next { right: 10px; }
-
-.close { position: absolute; top: 15px; right: 35px; color: #F2E8E1; font-size: 40px; font-weight: bold; transition: 0.3s; }
-.close:hover,
-.close:focus { color: #bbb; text-decoration: none; cursor: pointer; }
-
 
 /* ===== AUTOPLAY ===== */
 .buttondiv { cursor: pointer; position: fixed; height: 35px; bottom: 5px; width: 35px; left: 5px;}
@@ -174,9 +148,6 @@ h3 { font-size: 30px; }
 #container { width: 900px; margin: 0 auto; }
 main { width: 500px; }
 footer p { font-size: 12px; margin-bottom: 15px;}
-
-.linklist li { font-size: 14px; }
-.linklist a { font-size: 20px; }
 
 .warningbox { width: 450px; }
 .warningbox li { font-size : 14px; }
