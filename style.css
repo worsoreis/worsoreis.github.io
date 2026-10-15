@@ -106,8 +106,15 @@ footer p { font-size: 14px; color: black; text-align: center; letter-spacing: 1.
 .button { line-height: 1; max-width: 250px; width: fit-content; border: 5px solid white; background: var(--box-color); padding: 6px 12px; margin: 10px auto; border-radius: 5px; font-size: 15px; transition: 0.2s ease; }
 .button h2 { margin: 0; color: white; text-shadow: var(--button-text-shadow); }
 
+.imageholder { max-width: 700px; max-height: 650px; overflow: hidden; }
+.smallimage { max-width: 200px; max-height: 200px; overflow: hidden; }
+
 /* == SPECIFIC PAGES CSS == */
-/* -- Index -- */
+/* -- Home -- */
+.warningbox { width: 650px; position: relative; margin: 20px auto ; display: flex; padding: 10px; border: var(--lightred-border); color: yellow; font-family: var(--secondary-font); max-height: 200px; overflow: auto; }
+.warningbox ul { margin: 10px; padding-left: 20px; }
+.warningbox li { line-height: 1.5; color: var(--red); font-weight: 450;}
+
 #statuscafe { padding: .5em; background: var(--bgcolor); border: var(--lightblue-border); }
 #statuscafe-username { margin-bottom: .5em; font-family: var(--indie2-font); font-size: 10px; color: var(--blue); }
 #statuscafe-content { font-family: var(--indie2-font); margin: 0 1em 0.5em 1em; font-size: 14px; color: var(--darkred); }
@@ -123,6 +130,7 @@ footer p { font-size: 14px; color: black; text-align: center; letter-spacing: 1.
 
 .autoplayer button { background: var(--lightgreen); cursor: pointer; color: #3bab2d; border: var(--greenborder); border-radius: 25px; padding: 1px 4px 0px 4px; font-size: 18px; position: fixed; height: 35px; bottom: 5px; width: 35px; left: 5px;}
 .autoplayer a { background: var(--lightgreen); color: #2b9c1f; text-decoration: none; padding: 10px; padding-top: 10px; position: fixed; font-family: var(--indie-font); font-size: 18px; bottom: 5px; z-index: 1; left: 50px; border: var(--greenborder); border-radius: 20px;}
+
 
 /* ===== ANIMATIONS ===== */
 /* -- Moving background -- */
@@ -146,6 +154,7 @@ h3 { font-size: 30px; }
 #container { width: 900px; margin: 0 auto; }
 main { width: 500px; }
 footer p { font-size: 12px; margin-bottom: 15px;}
+
 
 .warningbox { width: 450px; }
 .warningbox li { font-size : 14px; }
