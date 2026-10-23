@@ -91,7 +91,7 @@ body { background-image: url("https://raw.githubusercontent.com/worsoreis/worsor
   
 .header { margin: 10px 0;  font-family: var(--deltarune-font); color: white; font-size: 40px;  text-shadow: var(--title-shadow);  display: flex;  align-items: center; justify-content: center; }
 
-.navbar { border-image: url(https://raw.githubusercontent.com/worsoreis/worsoreis.github.io/refs/heads/main/Assets/Borders/border.gif) 52 stretch; border-size: 26px transparent; image-rendering: pixelated; border-image-slice: 27,3% fill; display: flex; justify-content: center;}
+.navbar { border-image: url(https://raw.githubusercontent.com/worsoreis/worsoreis.github.io/refs/heads/main/Assets/Borders/border.gif) 52 stretch; border: 26px transparent; image-rendering: pixelated; border-image-slice: 27,3% fill; display: flex; justify-content: center;}
 .navbar a { font-size: 25px; text-decoration: none; padding: 10px; padding-left: 40px; align-items: center; }
 .navbar a:hover { color: red; }
 
